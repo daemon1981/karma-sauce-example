@@ -66,7 +66,7 @@ module.exports = function(config) {
       testName: 'Karma and Sauce Labs demo',
       startConnect: process.env.SELENIUM_PORT ? false : true,
     },
-    captureTimeout: 120000,
+    captureTimeout: 240000,
     customLaunchers: customLaunchers,
 
     // start these browsers

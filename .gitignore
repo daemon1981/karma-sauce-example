@@ -1,4 +1,4 @@
 .idea
 .*.iml
-node_modules\
-.idea\
+node_modules
+sauce.json
