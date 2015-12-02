@@ -53,7 +53,6 @@ module.exports = function(config) {
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
     reporters: ['dots', 'saucelabs'],
 
-    startConnect: false,
     // web server port
     port: process.env.SELENIUM_PORT || 9876,
 
@@ -64,7 +63,8 @@ module.exports = function(config) {
     logLevel: config.LOG_INFO,
 
     sauceLabs: {
-      testName: 'Karma and Sauce Labs demo'
+      testName: 'Karma and Sauce Labs demo',
+      startConnect: false,
     },
     captureTimeout: 120000,
     customLaunchers: customLaunchers,
