@@ -55,7 +55,7 @@ module.exports = function(config) {
 
     startConnect: false,
     // web server port
-    port: 9876,
+    port: process.env.SELENIUM_PORT || 9876,
 
     colors: true,
 
