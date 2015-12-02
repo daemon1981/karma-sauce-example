@@ -1,4 +1,5 @@
 {
     "username": "yourSauceUsername",
-    "accessKey": "yourSauceAccessKey"
+    "accessKey": "yourSauceAccessKey",
+    "startConnect": false
 }
