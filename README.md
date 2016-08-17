@@ -45,3 +45,4 @@ This repo demonstrates using Sauce with Travis CI. Here is a status badge which 
 [![Build Status](https://travis-ci.org/saucelabs/karma-sauce-example.png?branch=master)](https://travis-ci.org/saucelabs/karma-sauce-example)
 
 *Note: the build is failing on purpose as a demo of Sauce catching bugs in different browsers.*
+
